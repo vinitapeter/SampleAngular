@@ -1,0 +1,39 @@
+
+  <form #userName="ngForm" (ngSubmit)="onClickSubmit(username, password)"> 
+    &nbsp;&nbsp;&nbsp;<label>Username</label>
+    <br/> 
+    &nbsp;&nbsp;&nbsp;<input type="text" name="username" placeholder="username" #username ngModel> 
+  <br/> 
+  <br/> 
+  &nbsp;&nbsp;&nbsp;<label>Password</label>
+  <br/> 
+  <br/> 
+  &nbsp;&nbsp;&nbsp;<input type="text" name="password" placeholder="password" #password ngModel> 
+  <br/> 
+  <br/> 
+  &nbsp;&nbsp;&nbsp;<input type="submit" value="submit"> 
+  <hr/>
+  <br/> 
+  &nbsp;&nbsp;&nbsp;<label>Id</label>
+  <br/> 
+  &nbsp;&nbsp;&nbsp;<input id="id" [value]="id" ngModel> 
+  <br/> 
+
+  &nbsp;&nbsp;&nbsp;<label>Name</label>
+  <br/> 
+  &nbsp;&nbsp;&nbsp;<input id="name" [value]="name" ngModel> 
+  <br/> 
+
+  &nbsp;&nbsp;&nbsp;<label>Dept</label>
+  <br/> 
+  &nbsp;&nbsp;&nbsp;<input id="dept" [value]="dept" ngModel> 
+  <br/> 
+
+  &nbsp;&nbsp;&nbsp;<label>Age</label>
+  <br/> 
+  &nbsp;&nbsp;&nbsp;<input id="age" [value]="age" ngModel> 
+  <br/> 
+
+  
+</form>
+
