@@ -38,7 +38,7 @@ export class AppComponent {
       this.submitServiceService.login(username.value, password.value).subscribe(
          (res:any) => {
           console.log(res);
-           if(res.name=== username.value)
+           if(res.name === username.value)
              {
               console.log("Success!!!!!!");
                 alert('login scuccess');
@@ -60,6 +60,7 @@ export class AppComponent {
              }
          },
           (err:any) => {
+            
             console.log("Failed?!!!!!!")
             alert("Username and/or password wrong")
             console.log(username.value);
